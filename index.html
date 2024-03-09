@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Smartwatch Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="main/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="images/logo.png"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#features" class="nav-link">FEATURES</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber">
+          <h1>Welcome To Our Smartwatch Store</h1>
+          <h2>
+            Stay connected with the latest in wearable technology.
+          </h2>
+          <img src="images/home_watch.jpeg" alt="home" /></br> </br>
+          <button class="btn" onclick="window.location.href = '#order';">
+            Order Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            Welcome to our Smartwatch store. Explore the cutting-edge technology and stylish designs in wearable devices. We offer a range of smartwatches to enhance your lifestyle and keep you connected on the go.
+          </p>
+
+          <img src="images/about_watch.jpeg" alt="about-us"  />
+        </div>
+      </section>
+      <section id="features" class="sec-padding">
+        <h3 class="section-heading">Key Features</h3>
+        <div class="sec-content-div flexible">
+          <div class="feature">
+            <img src="images/heart_rate.jpeg" alt="Heart Rate Monitor" />
+            <h4>Heart Rate Monitor</h4>
+            <p>
+              Monitor your heart rate in real-time and keep track of your health and fitness goals.
+            </p>
+          </div>
+          <div class="feature">
+            <img src="images/notifications.jpeg" alt="Notifications" />
+            <h4>Notifications</h4>
+            <p>
+              Receive notifications for calls, messages, and apps directly on your smartwatch.
+            </p>
+          </div>
+          <div class="feature">
+            <img src="images/gps.jpeg" alt="GPS Navigation" />
+            <h4>GPS Navigation</h4>
+            <p>
+              Explore the world with built-in GPS for accurate navigation and fitness tracking.
+            </p>
+          </div>
+          <div class="feature">
+            <img src="images/water_resistant.jpeg" alt="Water Resistant" />
+            <h4>Water Resistant</h4>
+            <p>
+              Designed to withstand water splashes, making it suitable for everyday use.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="order" class="sec-padding">
+        <h3 class="section-heading">Order Now</h3>
+        <div class="sec-content-div flexible">
+          <p>Get your Smartwatch today and experience the future on your wrist!</p>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Order Now
+          </button>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="images/fast_delivery.jpeg" alt="Fast Delivery" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast Delivery</h5>
+              <p>
+                We ensure fast and secure delivery of your smartwatch to your doorstep.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="images/customer_support.jpeg" alt="Customer Support" />
+            </div>
+            <div class="txt-container">
+              <h5>24/7 Customer Support</h5>
+              <p>
+                Our dedicated customer support team is available 24/7 to assist you with any inquiries or issues.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="images/satisfaction.jpeg" alt="Satisfaction Guarantee" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfaction Guarantee</h5>
+              <p>
+                We guarantee your satisfaction with our high-quality smartwatches. If you're not satisfied, we'll make it right.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>Have questions or need assistance? Contact us:</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Contact Us" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      © 2024 Smartwatch Store The Future on Your Wrist. All rights reserved. 
+      For inquiries, contact us at info@smartwatchstore.com
+      All content is protected by copyright laws.
+    </footer>
+  </body>
+</html>
